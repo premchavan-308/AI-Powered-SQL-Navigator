@@ -4,7 +4,7 @@ import mysql.connector
 import google.generativeai as genai
 
 # 1. Setup Gemini AI
-genai.configure(api_key=st.secrets["GEMINI-API-KEY"])
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 model = genai.GenerativeModel('gemini-1.5-flash')
 
 def get_db_connection():
