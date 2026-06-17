@@ -28,3 +28,7 @@ loguru
 
 #Testing
 pytest
+streamlit
+pandas
+mysql-connector-python
+google-generativeai
