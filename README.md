@@ -10,7 +10,7 @@ An end-to-end LLM application that bridges the gap between non-technical users a
 ---
 
 ## 🏗️ System Architecture & Engineering Data Flow
-
+'''text
 The application decouples user interactions from raw data layers by implementing a strictly managed 4-stage pipeline:
 
 ┌──────────────┐      Natural Language      ┌───────────────────────┐
@@ -36,7 +36,7 @@ Presentation Layer: A responsive web UI built with Streamlit captures intent str
 Cognitive Translation Layer: Prompts are appended with schema definitions and executed securely via Google's modern google-genai SDK.
 Execution Sanitizer & Engine: Raw LLM outputs are processed to scrub Markdown backticks (```sql), preventing processing errors prior to local delivery.
 Hybrid Network Proxy: Streamlit Cloud routes standard TCP database drivers through an encrypted reverse forwarding SSH connection, mapping the cloud execution container directly to the targeted execution port.
-
+'''
 ---
 
 ## 🚀 Key Engineering Highlights (Interviewer Focus)
