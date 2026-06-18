@@ -149,16 +149,6 @@ MYSQL_USER = "root"
 MYSQL_PASSWORD = "password"
 ```
 
----
-
-# ▶️ Run Application or output
-
-```text
-<img width="1918" height="1078" alt="Screenshot 2026-06-19 020254" src="https://github.com/user-attachments/assets/cdad5cfa-4061-4cfe-a0d5-8561737a3db4" />
-```
-
----
-
 # 🌐 Deployment
 
 The application can be deployed on Streamlit Cloud.
