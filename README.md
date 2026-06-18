@@ -13,7 +13,6 @@ An end-to-end LLM application that bridges the gap between non-technical users a
 
 The application decouples user interactions from raw data layers by implementing a strictly managed 4-stage pipeline:
 
-```text
 ┌──────────────┐      Natural Language      ┌───────────────────────┐
 │              │ ─────────────────────────> │   Gemini 2.5 Flash    │
 │  Streamlit   │                            └───────────────────────┘
