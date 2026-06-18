@@ -47,9 +47,7 @@ with col1:
     
     if st.button("✨ Generate SQL Query"):
         if user_query:
-           # st.session_state.sql_query = generate_sql_from_ai(user_query)
-            st.session_state.sql_query = "SELECT * FROM employees;"
-            st.success("AI Bypassed! Click 'Execute Query' below to test your database.")
+           st.session_state.sql_query = generate_sql_from_ai(user_query)
         else:
             st.warning("Please enter a query.")
 
