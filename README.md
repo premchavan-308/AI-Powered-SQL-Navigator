@@ -87,7 +87,8 @@ SQL-Query-Generator/
 ├── ui.py
 ├── requirements.txt
 ├── README.md
-│
+├── app.py
+├── database.py
 └── .streamlit/
     └── secrets.toml
 ```
@@ -99,7 +100,7 @@ SQL-Query-Generator/
 ## 1. Clone Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/SQL-Query-Generator.git
+git clone https://github.com/premchavan-308/AI-Powered-SQL-Navigator.git
 
 cd SQL-Query-Generator
 ```
@@ -216,7 +217,7 @@ Prem Ramdas Chavan
 
 Bachelor of Engineering (BE)
 
-AI-Powered Database Querying using Large Language Models
+AI-Powered Database Querying using Large Language Models and Generative AI
 
 
 ---
