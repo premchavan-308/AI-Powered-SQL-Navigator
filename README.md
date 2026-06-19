@@ -61,7 +61,7 @@ Results Displayed in Streamlit
 | Backend            | Python                 |
 | AI Model           | Gemini API             |
 | Database           | MySQL                  |
-| Database Connector | mysql-connector-python |
+| Database Connector | Aiven Cloud |
 | Data Processing    | Pandas                 |
 | Deployment         | Streamlit Cloud        |
 
